@@ -1,0 +1,6 @@
+@reboot /local/dropbox/dropboxd
+@hourly /local/dropbox/dropboxd
+@reboot jupyter notebook
+
+#54 20 * * * jupyter notebook
+

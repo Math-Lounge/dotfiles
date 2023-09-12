@@ -1,0 +1,21 @@
+[user]
+    name = Akshay Kashyap
+    email = the.akshay.kashyap@gmail.com
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+    # autocrlf = true
+
+[alias]
+    st = status
+    br = branch
+    ci = commit
+    co = checkout
+    amend = commit --amend --no-edit
+    k = !gitk &
+    glog = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) %C(green)(%cr) %C(bold blue)<%an>%C(reset) %s %C(yellow)%d%C(reset)'
+
+[credential "https://github.com"]
+    helper = !/usr/bin/gh auth git-credential
+

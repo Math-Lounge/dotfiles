@@ -1,0 +1,20 @@
+
+alias win_path='cmd.exe /c echo %PATH% | tr ";" "\n"'
+
+alias gl='git glog'
+alias gs='git status'
+alias gd='git diff'
+
+alias vimo='vim -O'
+
+alias f='fg'
+alias j='jobs'
+alias b='bg'
+alias ll='ls -alh'
+
+export EDITOR=vim
+alias c='clear'
+
+# QHOME=/local/q
+# alias q='rlwrap -c -r ${QHOME}/l32/q'
+
